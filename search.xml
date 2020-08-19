@@ -2,16 +2,70 @@
 <search>
   <entry>
     <title>博客搬迁调试中</title>
-    <url>/2020/08/15/%E5%8D%9A%E5%AE%A2%E6%90%AC%E8%BF%81%E4%B8%AD/</url>
-    <content><![CDATA[<p>旧服务器已停用，本博客迁移至Github Pages，基于Hexo。<br>先前的博文将陆续迁移至此。</p>
+    <url>/posts/8fe10a1e/</url>
+    <content><![CDATA[<style>.post-copyright{display:none}</style>
+<p>旧服务器已停用，本博客迁移至Github Pages，基于Hexo。<br>先前的博文将陆续迁移至此。</p>
 ]]></content>
       <categories>
         <category>默认</category>
       </categories>
   </entry>
   <entry>
+    <title>本站点使用的Hexo插件列表</title>
+    <url>/posts/d229cf89/</url>
+    <content><![CDATA[<p>在这里会记录本站点目前所使用的Hexo插件，以及简单的使用说明，供自己备忘，也希望能帮到其他建站的朋友。 </p>
+<a id="more"></a>
+<table>
+<thead>
+<tr>
+<th>插件</th>
+<th>简介</th>
+<th>Github地址</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>hexo-deployer-git</td>
+<td>Git部署插件</td>
+<td><a href="https://github.com/hexojs/hexo-deployer-git">https://github.com/hexojs/hexo-deployer-git</a></td>
+</tr>
+<tr>
+<td>hexo-abbrlink</td>
+<td>永久链接生成插件</td>
+<td><a href="https://github.com/rozbo/hexo-abbrlink">https://github.com/rozbo/hexo-abbrlink</a></td>
+</tr>
+<tr>
+<td>hexo-generator-index-pin-top</td>
+<td>文章置顶插件</td>
+<td><a href="https://github.com/netcan/hexo-generator-index-pin-top">https://github.com/netcan/hexo-generator-index-pin-top</a></td>
+</tr>
+<tr>
+<td>hexo-generator-searchdb</td>
+<td>搜索功能插件</td>
+<td><a href="https://github.com/theme-next/hexo-generator-searchdb">https://github.com/theme-next/hexo-generator-searchdb</a></td>
+</tr>
+<tr>
+<td>hexo-symbols-count-time</td>
+<td>字数与阅读时间统计插件</td>
+<td><a href="https://github.com/theme-next/hexo-symbols-count-time">https://github.com/theme-next/hexo-symbols-count-time</a></td>
+</tr>
+<tr>
+<td>hexo-helper-live2d</td>
+<td>live2d看板插件</td>
+<td><a href="https://github.com/EYHN/hexo-helper-live2d">https://github.com/EYHN/hexo-helper-live2d</a></td>
+</tr>
+</tbody></table>
+<p>使用说明以后有空再写，咕咕咕</p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>飞翔工作室 9周年</title>
-    <url>/2020/08/16/%E9%A3%9E%E7%BF%94%E5%B7%A5%E4%BD%9C%E5%AE%A4-9%E5%91%A8%E5%B9%B4/</url>
+    <url>/posts/9c085639/</url>
     <content><![CDATA[<p>一年又一年，平安是福<br><img src="https://s1.ax1x.com/2020/08/16/dV3SUO.png" alt="9 Years"></p>
 ]]></content>
       <categories>
