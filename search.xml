@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>博客搬迁调试中</title>
+    <url>/posts/8fe10a1e/</url>
+    <content><![CDATA[<style>.post-copyright{display:none}</style>
+<p>旧服务器已停用，本博客迁移至Github Pages，基于Hexo。<br>先前的博文将陆续迁移至此。</p>
+]]></content>
+      <categories>
+        <category>默认</category>
+      </categories>
+  </entry>
+  <entry>
     <title>FLY BGClicker——支持后台挂机连点的多功能鼠标连点器</title>
     <url>/posts/3b5b7008/</url>
-    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>本程序是一个支持后台连点的多功能鼠标连点器，可以通过窗口标题获得窗口句柄，向对应的窗口发送鼠标消息，即使窗口在后台不处于激活状态也能实现鼠标连点。</p>
+    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><hr>
+<p>本程序是一个支持后台连点的多功能鼠标连点器，可以通过窗口标题获得窗口句柄，向对应的窗口发送鼠标消息，即使窗口在后台不处于激活状态也能实现鼠标连点。</p>
 <a id="more"></a>
 
-<h1 id="开发背景"><a href="#开发背景" class="headerlink" title="开发背景"></a>开发背景</h1><p>写这个连点器的初衷之一是实现Minecraft的后台挂机钓鱼，之前看到了一个有关全自动钓鱼卡键方法的视频，无奈其中的方法我都试过了，在我的电脑上都不能卡住右键连续点击。于是我上网查了相关内容，发现台湾一位玩家用简介中的思路拿VB写了连点器实现了后台挂机钓鱼。但是他的程序使用了繁体，在我的简体系统上会乱码，而且这个思路挺简单的，正好闲着没事，自己便顺着思路拿C#写了一个。没什么技术含量，直接开源，我的C#为初学者水平，平常只是写点小程序自娱自乐，代码写的很糙，求大佬指（轻）点（喷）。虽说这个程序是为了实现Minecraft后台钓鱼、刷石、刷经验，但是既然写都写了，还是顺便做了一个前台模式，这样它也可以作为一个普通的前台鼠标连点器使用。<br>另一初衷是写一个开源、无广告、无流氓行径、不申请UAC权限、简洁轻量的鼠标连点器，鼠标连点器的开发门槛很低，上网一搜一大把，而正是由于开发门槛低，什么素质的开发者都能写一个，网上的不少连点器广告推广、流氓捆绑、篡改系统、臃肿花哨，不是很懂为什么开发成本如此低的程序都要这么急着为自己牟利，所以自己动手写一个用着放心。</p>
-<h1 id="运行截图"><a href="#运行截图" class="headerlink" title="运行截图"></a>运行截图</h1><p><img src="https://s1.ax1x.com/2020/08/23/dd4bTg.png" alt="dd4bTg.png"></p>
-<h1 id="功能特性"><a href="#功能特性" class="headerlink" title="功能特性"></a>功能特性</h1><ul>
+<h2 id="开发背景"><a href="#开发背景" class="headerlink" title="开发背景"></a>开发背景</h2><hr>
+<p>写这个连点器的初衷之一是实现Minecraft的后台挂机钓鱼，之前看到了一个有关全自动钓鱼卡键方法的视频，无奈其中的方法我都试过了，在我的电脑上都不能卡住右键连续点击。于是我上网查了相关内容，发现台湾一位玩家用简介中的思路拿VB写了连点器实现了后台挂机钓鱼。但是他的程序使用了繁体，在我的简体系统上会乱码，而且这个思路挺简单的，正好闲着没事，自己便顺着思路拿C#写了一个。没什么技术含量，直接开源，我的C#为初学者水平，平常只是写点小程序自娱自乐，代码写的很糙，求大佬指（轻）点（喷）。虽说这个程序是为了实现Minecraft后台钓鱼、刷石、刷经验，但是既然写都写了，还是顺便做了一个前台模式，这样它也可以作为一个普通的前台鼠标连点器使用。<br>另一初衷是写一个开源、无广告、无流氓行径、不申请UAC权限、简洁轻量的鼠标连点器，鼠标连点器的开发门槛很低，上网一搜一大把，而正是由于开发门槛低，什么素质的开发者都能写一个，网上的不少连点器广告推广、流氓捆绑、篡改系统、臃肿花哨，不是很懂为什么开发成本如此低的程序都要这么急着为自己牟利，所以自己动手写一个用着放心。</p>
+<h2 id="运行截图"><a href="#运行截图" class="headerlink" title="运行截图"></a>运行截图</h2><hr>
+<p><img src="https://s1.ax1x.com/2020/08/23/dd4bTg.png"></p>
+<h2 id="功能特性"><a href="#功能特性" class="headerlink" title="功能特性"></a>功能特性</h2><hr>
+<ul>
 <li><p>提供“一般模式”与“后台模式”两种点击模式，“一般模式”下本程序作为普通的鼠标连点器，“后台模式”下可以通过窗口标题获得窗口句柄，向对应的窗口发送鼠标消息，即使窗口在后台不处于激活状态也能实现鼠标连点。应用于Minecraft时，在禁用了失去焦点自动暂停后，游戏窗口最小化时也依然能够进行挂机钓鱼、刷石等AFK行为，此时电脑依然能够做其他的事情。</p>
 </li>
 <li><p>支持左键单击、右键单击、左键按住、右键按住四种点击方式。</p>
@@ -18,14 +32,18 @@
 <li><p>支持在一段时间或达成一定点击次数后后自动停止运行。</p>
 </li>
 </ul>
-<h1 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h1><p>Github：<a href="https://github.com/wxyedward/BGClicker">https://github.com/wxyedward/BGClicker</a><br>MCBBS：<a href="https://www.mcbbs.net/thread-894653-1-1.html">https://www.mcbbs.net/thread-894653-1-1.html</a></p>
-<h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><hr>
+<p>Github：<a href="https://github.com/wxyedward/BGClicker">https://github.com/wxyedward/BGClicker</a><br>MCBBS：<a href="https://www.mcbbs.net/thread-894653-1-1.html">https://www.mcbbs.net/thread-894653-1-1.html</a></p>
+<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><hr>
+<ol>
 <li>作为普通的鼠标连点器使用的时候, <strong>[工作模式]</strong> 选择 <strong>[一般模式]</strong> ，在 <strong>[点击方式]</strong> 中选择需要的方式，设好频率或频率区间，设好热键，将本程序最小化至托盘，按下热键，开始/停止连点。 <strong>[频率]</strong> 在“单击”模式中即为点击间隔，在“按住”模式中是指“每隔多长时间重置一次鼠标按住状态”，不需要太快，这样设计是为了保证鼠标一直处于按住状态，不会因为这期间人为的鼠标点击而中断。</li>
-<li>在Minecraft中挂机钓鱼时， <strong>[工作模式]</strong> 选择 <strong>[后台模式]</strong> ，点击 <strong>[捕获窗口标题]</strong> 按钮，切换到Minecraft窗口按下“Shift+F2”，或者直接在文本框中输入窗口标题。<br><img src="https://s1.ax1x.com/2020/08/22/ddnkGD.gif" alt="ddnkGD.gif"><br>然后在Minecraft游戏中按下“F3+P”以禁用失去焦点后暂停游戏，将鼠标准星对准你的钓鱼机中的音符盒，按下Win+D最小化游戏窗口， <strong>[点击方式]</strong> 选择 <strong>[右键单击]</strong> ，设好合适的频率（如果在服务器请考虑到延迟问题），单击 <strong>[开始]</strong> 即可开始钓鱼，听到音符盒的点击音效便说明成功。（以下GIF仅为演示功能，并未最小化游戏）<br><a href="https://imgchr.com/i/dd3Zfx"><img src="https://s1.ax1x.com/2020/08/22/dd3Zfx.gif" alt="dd3Zfx.gif"></a></li>
-<li>在Minecraft中挂机刷石时， <strong>[点击方式]</strong> 为 <strong>[左键按住]</strong> ，挂小白/小黑经验塔时， <strong>[点击方式]</strong> 为 <strong>[左键单击]</strong> ，挂树场时， <strong>[点击方式]</strong> 为 <strong>[右键单击]</strong> 或 <strong>[右键按住]</strong><br><img src="https://s1.ax1x.com/2020/08/22/dd317d.gif" alt="dd317d.gif"></li>
+<li>在Minecraft中挂机钓鱼时， <strong>[工作模式]</strong> 选择 <strong>[后台模式]</strong> ，点击 <strong>[捕获窗口标题]</strong> 按钮，切换到Minecraft窗口按下“Shift+F2”，或者直接在文本框中输入窗口标题。<br><img src="https://s1.ax1x.com/2020/08/22/ddnkGD.gif"><br>然后在Minecraft游戏中按下“F3+P”以禁用失去焦点后暂停游戏，将鼠标准星对准你的钓鱼机中的音符盒，按下Win+D最小化游戏窗口， <strong>[点击方式]</strong> 选择 <strong>[右键单击]</strong> ，设好合适的频率（如果在服务器请考虑到延迟问题），单击 <strong>[开始]</strong> 即可开始钓鱼，听到音符盒的点击音效便说明成功。（以下GIF仅为演示功能，并未最小化游戏）<br><img src="https://s1.ax1x.com/2020/08/22/dd3Zfx.gif"></li>
+<li>在Minecraft中挂机刷石时， <strong>[点击方式]</strong> 为 <strong>[左键按住]</strong> ，挂小白/小黑经验塔时， <strong>[点击方式]</strong> 为 <strong>[左键单击]</strong> ，挂树场时， <strong>[点击方式]</strong> 为 <strong>[右键单击]</strong> 或 <strong>[右键按住]</strong><br><img src="https://s1.ax1x.com/2020/08/22/dd317d.gif"></li>
 </ol>
-<h1 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h1><p>Microsoft Windows XP/2003/Vista/7/8/8.1/10<br>需要 Microsoft .NET Framework 4.0</p>
-<h1 id="版本历史"><a href="#版本历史" class="headerlink" title="版本历史"></a>版本历史</h1><p>Ver 1.1.5.20082201</p>
+<h2 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h2><hr>
+<p>Microsoft Windows XP/2003/Vista/7/8/8.1/10<br>需要 Microsoft .NET Framework 4.0</p>
+<h2 id="版本历史"><a href="#版本历史" class="headerlink" title="版本历史"></a>版本历史</h2><hr>
+<p>Ver 1.1.5.20082201</p>
 <ul>
 <li>新增</li>
 </ul>
@@ -58,25 +76,6 @@
         <tag>Minecraft</tag>
         <tag>连点器</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>博客搬迁调试中</title>
-    <url>/posts/8fe10a1e/</url>
-    <content><![CDATA[<style>.post-copyright{display:none}</style>
-<p>旧服务器已停用，本博客迁移至Github Pages，基于Hexo。<br>先前的博文将陆续迁移至此。</p>
-]]></content>
-      <categories>
-        <category>默认</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>飞翔工作室 9周年</title>
-    <url>/posts/9c085639/</url>
-    <content><![CDATA[<p>一年又一年，平安是福<br><img src="https://s1.ax1x.com/2020/08/16/dV3SUO.png" alt="9 Years"></p>
-]]></content>
-      <categories>
-        <category>默认</category>
-      </categories>
   </entry>
   <entry>
     <title>本站点使用的Hexo插件列表</title>
@@ -130,5 +129,14 @@
       <tags>
         <tag>Hexo</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>飞翔工作室 9周年</title>
+    <url>/posts/9c085639/</url>
+    <content><![CDATA[<p>一年又一年，平安是福<br><img src="https://s1.ax1x.com/2020/08/16/dV3SUO.png" alt="9 Years"></p>
+]]></content>
+      <categories>
+        <category>默认</category>
+      </categories>
   </entry>
 </search>
