@@ -1,77 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>博客搬迁调试中</title>
-    <url>/posts/8fe10a1e/</url>
-    <content><![CDATA[<style>.post-copyright{display:none}</style>
-<p>旧服务器已停用，本博客迁移至Github Pages，基于Hexo。<br>先前的博文将陆续迁移至此。</p>
-]]></content>
-      <categories>
-        <category>默认</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>亲自去看看Minecraft默认资源包图标pack.png中的那座山</title>
-    <url>/posts/f8b4127c/</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><hr>
-<p>历时八个月，史诗级的pack.png地图种子寻找项目已在近期获得了成功。<br>pack.png是从Minecraft Java版Alpha v1.2.2到1.14一直使用的默认资源包的图标，多人游戏服务器的默认图标也是这张图的灰阶版，Minecraft的老玩家对这张图一定不会陌生。<br><img src="https://s1.ax1x.com/2020/09/09/w8lVQU.jpg" alt="pack.png"><br>仅凭一张128x128像素的图片给出的寥寥无几的信息，从设想，到实践，再到成功，pack.png Project的团队成员们缔造了一个难以置信的奇迹。  </p>
-<a id="more"></a>
-<p>以下是所有与该项目相关的视频：</p>
-<ol>
-<li>油管Youtuber SalC1的第一条视频：<a href="https://youtu.be/lbR8ZY1Nsm8">[YouTube]The Mystery of the Minecraft pack.png File</a> </li>
-<li>pack.png的寻找并不顺利，当我看到这条视频的时候，曾以为这个项目最后只会不了了之，成为一个未解之谜：<ul>
-<li><a href="https://youtu.be/eC7f9tMslVE">[YouTube]Pack.PNG - The Search is Still On!</a></li>
-<li><a href="https://www.bilibili.com/video/av243553224">[bilibili搬运]Pack.PNG 搜索仍在继续</a></li>
-</ul>
-</li>
-<li>pack.png终于被找到了：<ul>
-<li><a href="https://youtu.be/wZGPg6Ckp3Q">[Youtube]Oh look, a hill!</a></li>
-<li><a href="https://www.bilibili.com/video/av669440114">[bilibili搬运]看，那里有座山</a></li>
-</ul>
-</li>
-<li>pack.png Project背后的故事：<ul>
-<li><a href="https://youtu.be/ea6py9q46QU">[Youtube]Pack.PNG has been FOUND! - Here’s how they did it.</a></li>
-<li><a href="https://www.bilibili.com/video/av627122421/">[bilibili搬运]Pack.PNG被找到了，过程是这样的</a>  </li>
-</ul>
-</li>
-</ol>
-<h2 id="pack-png拍摄地点的全部信息"><a href="#pack-png拍摄地点的全部信息" class="headerlink" title="pack.png拍摄地点的全部信息"></a>pack.png拍摄地点的全部信息</h2><hr>
-<p>以下是pack.png Project团队得出的pack.png拍摄地点的详细信息，摘自<a href="https://pastebin.com/CmsEKDev">Minecraft pack.png tutorial</a></p>
-<blockquote>
-<p>Version: Alpha 1.2.2a [JAVA]<br>Seed: 3257840388504953787<br>Player X: 49.16~<br>Player Y: 64 (65.62 eye position)<br>Player Z: 0.72~<br>Camera yaw: -119.23 (horizontal rotation angle)<br>Camera pitch: -8.297 (vertical rotation angle)<br>In-game time: 34 seconds (for the clouds to match)<br>Window resolution: 1600x1116<br>Crop position (top-left corner): 622;284<br>Crop size: 512x512<br>Downscaled to: 128x128 (factor of 4, using SuperSampling a.k.a. Box scaling)</p>
-</blockquote>
-<h2 id="如何亲自圣地巡礼"><a href="#如何亲自圣地巡礼" class="headerlink" title="如何亲自圣地巡礼"></a>如何亲自圣地巡礼</h2><hr>
-<p>如果你有条件的话，可以直接阅读SalC1给出的详细教程：<a href="https://pastebin.com/CmsEKDev">Minecraft pack.png tutorial</a><br>以下是我亲自实践之后写出来的教程，英文不好的朋友可以参考。</p>
-<h3 id="1-下载Minecraft-Java版-Alpha-1-2-2"><a href="#1-下载Minecraft-Java版-Alpha-1-2-2" class="headerlink" title="1. 下载Minecraft Java版 Alpha 1.2.2"></a>1. 下载Minecraft Java版 Alpha 1.2.2</h3><p>记住，一定是Alpha 1.2.2，而不是正式发行的1.2.2版。<br>因为我是正版账号，所以用在正版玩家中最受欢迎的MultiMC启动器做例子：<br><img src="https://s1.ax1x.com/2020/09/09/w8lAzT.png"><br>如上图，创建一个新实例，过滤器仅选中<code>Alpha</code>，找到<code>a1.2.2a</code>，点击OK。<br>然后启动游戏。<br>如果你使用HMCL，则应该这样找到Alpha 1.2.2版：<br><img src="https://s1.ax1x.com/2020/09/09/w8llJx.png"><br>至于我为什么不写官方启动器该怎么办，我也是没办法啊，在我想打开官启的时候，发生了这种事：<br><img src="https://s1.ax1x.com/2020/09/09/w8lQF1.png"><br>让我说你什么好啊Mojang（不过不会真有人放着这些这么好用的第三方启动器不用而去用官启吧</p>
-<h3 id="2-生成一个世界"><a href="#2-生成一个世界" class="headerlink" title="2. 生成一个世界"></a>2. 生成一个世界</h3><p>在Alpha 1.2.2中，还没有创建世界的时候自定义种子的功能，所以我们只能先随便生成一个存档，然后使用辅助工具修改它的地图种子。<br><img src="https://s1.ax1x.com/2020/09/09/w8lFJ0.png" alt="相当古老的版本，甚至连标题当中的A都还不是苦力怕头"><br>直接创建一个单人世界，然后直接保存退出。<br><img src="https://s1.ax1x.com/2020/09/09/w8lkWV.png"></p>
-<h3 id="3-修改存档的地图种子"><a href="#3-修改存档的地图种子" class="headerlink" title="3. 修改存档的地图种子"></a>3. 修改存档的地图种子</h3><p>首先要找到存档的文件夹，对于MultiMC，这一步十分简单，只需要点击侧边的“实例文件夹”，找到<code>.\.minecraft\saves</code>文件夹，里面的<code>World1</code>便是了。<br>而如果你使用HMCL或官方启动器，这个文件夹应该在<code>C:\Users\你的用户名\AppData\Roaming\.minecraft</code>下。<br>在<code>World1</code>文件夹，删除除了<code>level.dat</code>以外的所有文件，因为我们要修改地图种子，之前已经生成的区块自然不能保留。<br><img src="https://s1.ax1x.com/2020/09/09/w8lneJ.png"><br>然后到<a href="https://github.com/jaquadro/NBTExplorer/releases/tag/v2.8.0-win">https://github.com/jaquadro/NBTExplorer/releases/tag/v2.8.0-win</a>下载NBTExplorer。<br>将<code>level.dat</code>拖动到NBTExplorer中打开，修改<code>RandomSeed</code>值为<code>3257840388504953787</code>，也可以选择将玩家的坐标直接改到那座山附近，方法是展开<code>Player</code>那一节，修改玩家坐标，坐标在上面的pack.png拍摄地点全部信息中有。<br><img src="https://s1.ax1x.com/2020/09/09/w8luw9.png" alt="图中的地图种子我还没改，别被这张图误导了"><br>随后保存。</p>
-<h3 id="4-再次打开游戏"><a href="#4-再次打开游戏" class="headerlink" title="4. 再次打开游戏"></a>4. 再次打开游戏</h3><p>没有意外的话，再次进入游戏时，你已经站在了pack.png中那座山的面前。<br><img src="https://s1.ax1x.com/2020/09/09/w8l1W6.png" alt="是的，成功了"></p>
-<h3 id="5-升级存档（可选）"><a href="#5-升级存档（可选）" class="headerlink" title="5. 升级存档（可选）"></a>5. 升级存档（可选）</h3><p>Alpha 1.2.2版本的材质包可以带给你最原汁原味的体验，但由于是极其古老的版本，很多功能都不完善，如果你想在更高的版本中游玩这张地图，则可以在Beta 1.7.3版本中打开这个存档，这个版本会帮你把旧版的存档转换为新版存档的格式，这样你就可以在更高的版本中游玩它。</p>
-<h2 id="和全世界网友一起见证这个奇迹"><a href="#和全世界网友一起见证这个奇迹" class="headerlink" title="和全世界网友一起见证这个奇迹"></a>和全世界网友一起见证这个奇迹</h2><hr>
-<p>SalC1将这个存档托管在了服务器上，可供全球网友加入并游览，可用1.12.2-1.16.2版本客户端连入。</p>
-<blockquote>
-<p>服务器地址：packpng.salc1.com</p>
-</blockquote>
-<p><img src="https://s1.ax1x.com/2020/09/09/w8tzaF.png" alt="这是我进入服务器后截的图，SalC1还很幽默地在原位放上了那头猪"></p>
-<h2 id="写在后面"><a href="#写在后面" class="headerlink" title="写在后面"></a>写在后面</h2><hr>
-<p>从生存中获得基岩，到找到标题界面背景的地图种子，再到找到pack.png的地图种子，这款史上最畅销电子游戏的玩家们向世人证明了它无限的可能。<br>或许这便是Minecraft的精神吧。<br>要说这有什么意义，大概就如SalC1所说：</p>
-<blockquote>
-<p>一路走来，我们建立了许多友谊，新的技术被发明，还从中学到了很多技能。</p>
-</blockquote>
-<p>或许仅仅是如视频结尾一般：</p>
-<blockquote>
-<p>我要做一件我一直想做的事情<br><img src="https://s1.ax1x.com/2020/09/09/w8wltS.png"></p>
-</blockquote>
-<p>这是属于MC人的浪漫。</p>
-]]></content>
-      <categories>
-        <category>Minecraft</category>
-      </categories>
-      <tags>
-        <tag>Minecraft pack.png</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>FLY BGClicker——支持后台挂机连点的多功能鼠标连点器</title>
     <url>/posts/3b5b7008/</url>
     <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><hr>
@@ -137,6 +66,77 @@
         <tag>Minecraft</tag>
         <tag>连点器</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>亲自去看看Minecraft默认资源包图标pack.png中的那座山</title>
+    <url>/posts/f8b4127c/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><hr>
+<p>历时八个月，史诗级的pack.png地图种子寻找项目已在近期获得了成功。<br>pack.png是从Minecraft Java版Alpha v1.2.2到1.14一直使用的默认资源包的图标，多人游戏服务器的默认图标也是这张图的灰阶版，Minecraft的老玩家对这张图一定不会陌生。<br><img src="https://s1.ax1x.com/2020/09/09/w8lVQU.jpg" alt="pack.png"><br>仅凭一张128x128像素的图片给出的寥寥无几的信息，从设想，到实践，再到成功，pack.png Project的团队成员们缔造了一个难以置信的奇迹。  </p>
+<a id="more"></a>
+<p>以下是所有与该项目相关的视频：</p>
+<ol>
+<li>油管Youtuber SalC1的第一条视频：<a href="https://youtu.be/lbR8ZY1Nsm8">[YouTube]The Mystery of the Minecraft pack.png File</a> </li>
+<li>pack.png的寻找并不顺利，当我看到这条视频的时候，曾以为这个项目最后只会不了了之，成为一个未解之谜：<ul>
+<li><a href="https://youtu.be/eC7f9tMslVE">[YouTube]Pack.PNG - The Search is Still On!</a></li>
+<li><a href="https://www.bilibili.com/video/av243553224">[bilibili搬运]Pack.PNG 搜索仍在继续</a></li>
+</ul>
+</li>
+<li>pack.png终于被找到了：<ul>
+<li><a href="https://youtu.be/wZGPg6Ckp3Q">[Youtube]Oh look, a hill!</a></li>
+<li><a href="https://www.bilibili.com/video/av669440114">[bilibili搬运]看，那里有座山</a></li>
+</ul>
+</li>
+<li>pack.png Project背后的故事：<ul>
+<li><a href="https://youtu.be/ea6py9q46QU">[Youtube]Pack.PNG has been FOUND! - Here’s how they did it.</a></li>
+<li><a href="https://www.bilibili.com/video/av627122421/">[bilibili搬运]Pack.PNG被找到了，过程是这样的</a>  </li>
+</ul>
+</li>
+</ol>
+<h2 id="pack-png拍摄地点的全部信息"><a href="#pack-png拍摄地点的全部信息" class="headerlink" title="pack.png拍摄地点的全部信息"></a>pack.png拍摄地点的全部信息</h2><hr>
+<p>以下是pack.png Project团队得出的pack.png拍摄地点的详细信息，摘自<a href="https://pastebin.com/CmsEKDev">Minecraft pack.png tutorial</a></p>
+<blockquote>
+<p>Version: Alpha 1.2.2a [JAVA]<br>Seed: 3257840388504953787<br>Player X: 49.16~<br>Player Y: 64 (65.62 eye position)<br>Player Z: 0.72~<br>Camera yaw: -119.23 (horizontal rotation angle)<br>Camera pitch: -8.297 (vertical rotation angle)<br>In-game time: 34 seconds (for the clouds to match)<br>Window resolution: 1600x1116<br>Crop position (top-left corner): 622;284<br>Crop size: 512x512<br>Downscaled to: 128x128 (factor of 4, using SuperSampling a.k.a. Box scaling)</p>
+</blockquote>
+<h2 id="如何亲自圣地巡礼"><a href="#如何亲自圣地巡礼" class="headerlink" title="如何亲自圣地巡礼"></a>如何亲自圣地巡礼</h2><hr>
+<p>如果你有条件的话，可以直接阅读SalC1给出的详细教程：<a href="https://pastebin.com/CmsEKDev">Minecraft pack.png tutorial</a><br>以下是我亲自实践之后写出来的教程，英文不好的朋友可以参考。</p>
+<h3 id="1-下载Minecraft-Java版-Alpha-1-2-2"><a href="#1-下载Minecraft-Java版-Alpha-1-2-2" class="headerlink" title="1. 下载Minecraft Java版 Alpha 1.2.2"></a>1. 下载Minecraft Java版 Alpha 1.2.2</h3><p>记住，一定是Alpha 1.2.2，而不是正式发行的1.2.2版。<br>因为我是正版账号，所以用在正版玩家中最受欢迎的MultiMC启动器做例子：<br><img src="https://s1.ax1x.com/2020/09/09/w8lAzT.png"><br>如上图，创建一个新实例，过滤器仅选中<code>Alpha</code>，找到<code>a1.2.2a</code>，点击OK。<br>然后启动游戏。<br>如果你使用HMCL，则应该这样找到Alpha 1.2.2版：<br><img src="https://s1.ax1x.com/2020/09/09/w8llJx.png"><br>至于我为什么不写官方启动器该怎么办，我也是没办法啊，在我想打开官启的时候，发生了这种事：<br><img src="https://s1.ax1x.com/2020/09/09/w8lQF1.png"><br>让我说你什么好啊Mojang（不过不会真有人放着这些这么好用的第三方启动器不用而去用官启吧</p>
+<h3 id="2-生成一个世界"><a href="#2-生成一个世界" class="headerlink" title="2. 生成一个世界"></a>2. 生成一个世界</h3><p>在Alpha 1.2.2中，还没有创建世界的时候自定义种子的功能，所以我们只能先随便生成一个存档，然后使用辅助工具修改它的地图种子。<br><img src="https://s1.ax1x.com/2020/09/09/w8lFJ0.png" alt="相当古老的版本，甚至连标题当中的A都还不是苦力怕头"><br>直接创建一个单人世界，然后直接保存退出。<br><img src="https://s1.ax1x.com/2020/09/09/w8lkWV.png"></p>
+<h3 id="3-修改存档的地图种子"><a href="#3-修改存档的地图种子" class="headerlink" title="3. 修改存档的地图种子"></a>3. 修改存档的地图种子</h3><p>首先要找到存档的文件夹，对于MultiMC，这一步十分简单，只需要点击侧边的“实例文件夹”，找到<code>.\.minecraft\saves</code>文件夹，里面的<code>World1</code>便是了。<br>而如果你使用HMCL或官方启动器，这个文件夹应该在<code>C:\Users\你的用户名\AppData\Roaming\.minecraft</code>下。<br>在<code>World1</code>文件夹，删除除了<code>level.dat</code>以外的所有文件，因为我们要修改地图种子，之前已经生成的区块自然不能保留。<br><img src="https://s1.ax1x.com/2020/09/09/w8lneJ.png"><br>然后到<a href="https://github.com/jaquadro/NBTExplorer/releases/tag/v2.8.0-win">https://github.com/jaquadro/NBTExplorer/releases/tag/v2.8.0-win</a>下载NBTExplorer。<br>将<code>level.dat</code>拖动到NBTExplorer中打开，修改<code>RandomSeed</code>值为<code>3257840388504953787</code>，也可以选择将玩家的坐标直接改到那座山附近，方法是展开<code>Player</code>那一节，修改玩家坐标，坐标在上面的pack.png拍摄地点全部信息中有。<br><img src="https://s1.ax1x.com/2020/09/09/w8luw9.png" alt="图中的地图种子我还没改，别被这张图误导了"><br>随后保存。</p>
+<h3 id="4-再次打开游戏"><a href="#4-再次打开游戏" class="headerlink" title="4. 再次打开游戏"></a>4. 再次打开游戏</h3><p>没有意外的话，再次进入游戏时，你已经站在了pack.png中那座山的面前。<br><img src="https://s1.ax1x.com/2020/09/09/w8l1W6.png" alt="是的，成功了"></p>
+<h3 id="5-升级存档（可选）"><a href="#5-升级存档（可选）" class="headerlink" title="5. 升级存档（可选）"></a>5. 升级存档（可选）</h3><p>Alpha 1.2.2版本的材质包可以带给你最原汁原味的体验，但由于是极其古老的版本，很多功能都不完善，如果你想在更高的版本中游玩这张地图，则可以在Beta 1.7.3版本中打开这个存档，这个版本会帮你把旧版的存档转换为新版存档的格式，这样你就可以在更高的版本中游玩它。</p>
+<h2 id="和全世界网友一起见证这个奇迹"><a href="#和全世界网友一起见证这个奇迹" class="headerlink" title="和全世界网友一起见证这个奇迹"></a>和全世界网友一起见证这个奇迹</h2><hr>
+<p>SalC1将这个存档托管在了服务器上，可供全球网友加入并游览，可用1.12.2-1.16.2版本客户端连入。</p>
+<blockquote>
+<p>服务器地址：packpng.salc1.com</p>
+</blockquote>
+<p><img src="https://s1.ax1x.com/2020/09/09/w8tzaF.png" alt="这是我进入服务器后截的图，SalC1还很幽默地在原位放上了那头猪"></p>
+<h2 id="写在后面"><a href="#写在后面" class="headerlink" title="写在后面"></a>写在后面</h2><hr>
+<p>从生存中获得基岩，到找到标题界面背景的地图种子，再到找到pack.png的地图种子，这款史上最畅销电子游戏的玩家们向世人证明了它无限的可能。<br>或许这便是Minecraft的精神吧。<br>要说这有什么意义，大概就如SalC1所说：</p>
+<blockquote>
+<p>一路走来，我们建立了许多友谊，新的技术被发明，还从中学到了很多技能。</p>
+</blockquote>
+<p>或许仅仅是如视频结尾一般：</p>
+<blockquote>
+<p>我要做一件我一直想做的事情<br><img src="https://s1.ax1x.com/2020/09/09/w8wltS.png"></p>
+</blockquote>
+<p>这是属于MC人的浪漫。</p>
+]]></content>
+      <categories>
+        <category>Minecraft</category>
+      </categories>
+      <tags>
+        <tag>Minecraft pack.png</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搬迁调试中</title>
+    <url>/posts/8fe10a1e/</url>
+    <content><![CDATA[<style>.post-copyright{display:none}</style>
+<p>旧服务器已停用，本博客迁移至Github Pages，基于Hexo。<br>先前的博文将陆续迁移至此。</p>
+]]></content>
+      <categories>
+        <category>默认</category>
+      </categories>
   </entry>
   <entry>
     <title>本站点使用的Hexo插件列表</title>
