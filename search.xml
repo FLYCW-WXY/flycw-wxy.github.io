@@ -36,7 +36,7 @@
 </li>
 </ol>
 <h2 id="pack-png拍摄地点的全部信息"><a href="#pack-png拍摄地点的全部信息" class="headerlink" title="pack.png拍摄地点的全部信息"></a>pack.png拍摄地点的全部信息</h2><hr>
-<p>以下是pack.png Project团队得出的pack.ong拍摄地点的详细信息，摘自<a href="https://pastebin.com/CmsEKDev">Minecraft pack.png tutorial</a></p>
+<p>以下是pack.png Project团队得出的pack.png拍摄地点的详细信息，摘自<a href="https://pastebin.com/CmsEKDev">Minecraft pack.png tutorial</a></p>
 <blockquote>
 <p>Version: Alpha 1.2.2a [JAVA]<br>Seed: 3257840388504953787<br>Player X: 49.16~<br>Player Y: 64 (65.62 eye position)<br>Player Z: 0.72~<br>Camera yaw: -119.23 (horizontal rotation angle)<br>Camera pitch: -8.297 (vertical rotation angle)<br>In-game time: 34 seconds (for the clouds to match)<br>Window resolution: 1600x1116<br>Crop position (top-left corner): 622;284<br>Crop size: 512x512<br>Downscaled to: 128x128 (factor of 4, using SuperSampling a.k.a. Box scaling)</p>
 </blockquote>
@@ -181,6 +181,16 @@
 <td>Live2D看板插件</td>
 <td><a href="https://github.com/EYHN/hexo-helper-live2d">https://github.com/EYHN/hexo-helper-live2d</a></td>
 </tr>
+<tr>
+<td>hexo-generator-sitemap</td>
+<td>站点地图生成插件</td>
+<td><a href="https://github.com/hexojs/hexo-generator-sitemap">https://github.com/hexojs/hexo-generator-sitemap</a></td>
+</tr>
+<tr>
+<td>hexo-generator-baidu-sitemap</td>
+<td>百度站点地图生成插件</td>
+<td><a href="https://github.com/coneycode/hexo-generator-baidu-sitemap">https://github.com/coneycode/hexo-generator-baidu-sitemap</a></td>
+</tr>
 </tbody></table>
 <h2 id="hexo-deployer-git"><a href="#hexo-deployer-git" class="headerlink" title="hexo-deployer-git"></a>hexo-deployer-git</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 <h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><p>修改站点配置文件<code>_config.yml</code></p>
@@ -213,7 +223,12 @@
 <p>修改主题配置文件<code>/themes/next/_config.yml</code>（以next为例），修改如下内容：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">item_text_post:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
 <h2 id="hexo-helper-live2d"><a href="#hexo-helper-live2d" class="headerlink" title="hexo-helper-live2d"></a>hexo-helper-live2d</h2><p>这个插件比较复杂，以后单写一篇来讲。</p>
-]]></content>
+<h2 id="hexo-generator-sitemap"><a href="#hexo-generator-sitemap" class="headerlink" title="hexo-generator-sitemap"></a>hexo-generator-sitemap</h2><h3 id="安装-5"><a href="#安装-5" class="headerlink" title="安装"></a>安装</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
+<h3 id="配置-2"><a href="#配置-2" class="headerlink" title="配置"></a>配置</h3><p>修改站点配置文件<code>_config.yml</code>，找到<code># Extensions</code>段，添加如下内容：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br><span class="line">  <span class="attr">rel:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">tags:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">categories:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<h2 id="hexo-generator-baidu-sitemap"><a href="#hexo-generator-baidu-sitemap" class="headerlink" title="hexo-generator-baidu-sitemap"></a>hexo-generator-baidu-sitemap</h2><h3 id="安装-6"><a href="#安装-6" class="headerlink" title="安装"></a>安装</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
+<h3 id="配置-3"><a href="#配置-3" class="headerlink" title="配置"></a>配置</h3><p>修改站点配置文件<code>_config.yml</code>，找到<code># Extensions</code>段，添加如下内容：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
